@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 6239d2bb56e7ac348b68114160b4c0cf
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 4781951162920444690
+    second: Patrick Walk
+  - first:
+      74: -8612994791844490777
+    second: Patrick Idle
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftHand' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Patrick Walk
+      takeName: Armature|ArmatureAction
+      internalID: 4781951162920444690
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Patrick Idle
+      takeName: Armature|ArmatureAction
+      internalID: -8612994791844490777
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: flatheadUV(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Point
+      parentName: flatheadUV(Clone)
+      position: {x: 1.3199977, y: 1.4629458, z: -1.6177813}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Sun
+      parentName: flatheadUV(Clone)
+      position: {x: 0.6414069, y: -0.0000038595977, z: -0.25962135}
+      rotation: {x: 0.30089957, y: -0.11729596, z: 0.05129662, w: 0.9450237}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Armature
+      parentName: flatheadUV(Clone)
+      position: {x: -0, y: 0.4308258, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Main
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071067, y: -0.00000008429369, z: -0.000000084293674, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: LowerBody
+      parentName: Main
+      position: {x: 1.8651308e-10, y: 0.0015703229, z: 0.00078229274}
+      rotation: {x: -0.033438783, y: -1.7844606e-14, z: 0.000000007972428, w: 0.9994408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperBody
+      parentName: LowerBody
+      position: {x: -7.9232606e-19, y: 0.0032230197, z: -4.4703484e-11}
+      rotation: {x: -0.07611325, y: 5.228921e-16, z: 0.000000018146809, w: 0.9970992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: UpperBody
+      position: {x: 2.5412213e-17, y: 0.0076240785, z: 8.940697e-11}
+      rotation: {x: -0.017661475, y: -5.099966e-15, z: 0.000000004210818, w: 0.9998441}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck.001
+      parentName: Neck
+      position: {x: 2.6097502e-17, y: 0.002752396, z: 0}
+      rotation: {x: 0.06360304, y: 4.8463846e-15, z: -0.000000015164142, w: 0.9979753}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Neck.002
+      parentName: Neck.001
+      position: {x: 2.3127405e-18, y: 0.0022224085, z: -3.352761e-11}
+      rotation: {x: -0.047114283, y: 1.3652829e-15, z: 0.000000011232917, w: 0.9988895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck.003
+      parentName: Neck.002
+      position: {x: 1.0306346e-17, y: 0.0023538163, z: 0}
+      rotation: {x: 0.062000077, y: 1.6426708e-14, z: -0.000000014781971, w: 0.99807614}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Neck.003_end
+      parentName: Neck.003
+      position: {x: -0, y: 0.0024456645, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: UpperBody
+      position: {x: -0.002773586, y: 0.0037434644, z: -0.00045100568}
+      rotation: {x: 0.06311385, y: -0.09065969, z: 0.8018571, w: 0.587216}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: arm.L
+      parentName: shoulder.L
+      position: {x: 5.1758253e-10, y: 0.0031565304, z: 1.1175871e-11}
+      rotation: {x: 0.09327603, y: 0.74603796, z: -0.07701903, w: 0.6548245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.L
+      parentName: arm.L
+      position: {x: 1.1175871e-10, y: 0.002227326, z: -4.917383e-10}
+      rotation: {x: 0.0623106, y: -0.063743755, z: 0.02815722, w: 0.99562114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.L_end
+      parentName: hand.L
+      position: {x: -0, y: 0.0017868197, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: UpperBody
+      position: {x: 0.002764625, y: 0.0037434637, z: -0.0004510072}
+      rotation: {x: -0.07704223, y: -0.100853, z: 0.80063885, w: -0.5855515}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: arm.R
+      parentName: shoulder.R
+      position: {x: -0.0000000010924414, y: 0.0031565297, z: 7.264316e-11}
+      rotation: {x: -0.08983966, y: 0.7341697, z: 0.08100099, w: 0.6681037}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: hand.R
+      parentName: arm.R
+      position: {x: 2.2351742e-11, y: 0.0022273262, z: 0.0000000014249235}
+      rotation: {x: -0.06388306, y: -0.13443708, z: 0.024378516, w: 0.9885602}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: hand.R_end
+      parentName: hand.R
+      position: {x: -0, y: 0.0017868197, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg.L
+      parentName: Main
+      position: {x: -0.0016926787, y: 0.0002294721, z: 0.0006019563}
+      rotation: {x: 0.71324277, y: 0.010725291, z: 0.70081323, w: 0.0055216514}
+      scale: {x: 1.000011, y: 1, z: 1.0001001}
+    - name: knee.L
+      parentName: leg.L
+      position: {x: -5.029142e-11, y: 0.0020045473, z: -9.2899424e-11}
+      rotation: {x: 0.026461959, y: -0.7002081, z: 0.031295035, w: 0.7127615}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.99999994}
+    - name: foot.L
+      parentName: knee.L
+      position: {x: 2.4120891e-10, y: 0.0015648825, z: 1.6958893e-11}
+      rotation: {x: -0.000018182403, y: 0.8100761, z: -0.58632475, w: -0.00002711218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.L_end
+      parentName: foot.L
+      position: {x: -0, y: 0.00212351, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg.R
+      parentName: Main
+      position: {x: 0.0016837183, y: 0.0002294721, z: 0.00060195546}
+      rotation: {x: 0.71315616, y: 0.005306979, z: 0.70092356, w: 0.009290064}
+      scale: {x: 1.000011, y: 1, z: 1.0001001}
+    - name: knee.R
+      parentName: leg.R
+      position: {x: -3.0733645e-11, y: 0.0020045473, z: -4.1909514e-12}
+      rotation: {x: 0.031751934, y: -0.7004285, z: 0.02591141, w: 0.712545}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: foot.R
+      parentName: knee.R
+      position: {x: -6.9849196e-11, y: 0.0015648825, z: 2.0810319e-11}
+      rotation: {x: 0.000020502725, y: 0.81007606, z: -0.5863248, w: 0.000026254642}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: foot.R_end
+      parentName: foot.R
+      position: {x: -0, y: 0.00212351, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane
+      parentName: flatheadUV(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Point.001
+      parentName: flatheadUV(Clone)
+      position: {x: -2.0263155, y: 1.4629458, z: -1.6177813}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Point.002
+      parentName: flatheadUV(Clone)
+      position: {x: -2.0263155, y: 2.7016668, z: -2.2092025}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Point.003
+      parentName: flatheadUV(Clone)
+      position: {x: 1.6168562, y: 1.4629458, z: 0.3734389}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Point.007
+      parentName: flatheadUV(Clone)
+      position: {x: 1.3199977, y: -0.21296038, z: -1.6177813}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Point.006
+      parentName: flatheadUV(Clone)
+      position: {x: -2.0263155, y: -0.21296038, z: -1.6177813}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Point.005
+      parentName: flatheadUV(Clone)
+      position: {x: -2.0263155, y: -0.21296038, z: 0.3734389}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    - name: Point.004
+      parentName: flatheadUV(Clone)
+      position: {x: 1.6168562, y: -0.21296038, z: 0.3734389}
+      rotation: {x: -0.000000037748954, y: 0, z: -0, w: 1}
+      scale: {x: 395.62405, y: 395.62405, z: 395.62405}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.3
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
